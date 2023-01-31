@@ -1,5 +1,6 @@
 package com.stasih;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Arrays1 <T> {
@@ -14,5 +15,19 @@ public class Arrays1 <T> {
             array.set(size-1-i, temp);
         }
         return array;
+    }
+
+    // Rotate array
+    public List<T> rotateArray(List<T> array, Integer d){
+        int size = array.size();
+        List<T> ans = new ArrayList<>();
+        int i;
+        for (i=d; i < size; i++){
+            ans.add(array.get(i));
+        }
+        for (i=0; i < d; i++){
+            ans.add(array.get(i));
+        }
+        return ans;
     }
 }
