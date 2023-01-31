@@ -14,7 +14,7 @@ public class App
 
         // Reverse Integer Array
         Arrays1<Integer> intArray = new Arrays1<>();
-        List<Integer> intList = Arrays.asList(1, 3, 4, 5, 6, 9);
+        List<Integer> intList = Arrays.asList(-2, -3, 4, -1, -2, 1, 5, -3);
         intList = intArray.reverseArray(intList);
         System.out.println(intList);
 
@@ -28,5 +28,9 @@ public class App
         List<Integer> intList2 = Arrays.asList(1, 3, 4, 5, 6, 9, 2, 8, 7);
         intList2 = intArray.rotateArray(intList2, 4);
         System.out.println(intList2);
+
+        // Largest Sum Contiguous Subarray (Kadane’s Algorithm)
+        int sum = intArray.largestSumSubArray(intList);
+        System.out.println("Largest Sum Subarray: " + sum);
     }
 }

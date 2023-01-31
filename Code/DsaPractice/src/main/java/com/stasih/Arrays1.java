@@ -3,6 +3,7 @@ package com.stasih;
 import java.util.ArrayList;
 import java.util.List;
 
+// https://www.geeksforgeeks.org/array-data-structure/   -  Array Problems
 public class Arrays1 <T> {
 
     // Iterative Program to reverse array - Time Complexity : O(n)
@@ -29,5 +30,23 @@ public class Arrays1 <T> {
             ans.add(array.get(i));
         }
         return ans;
+    }
+
+    // Largest Sum Contiguous Subarray (Kadane’s Algorithm)
+
+    public int largestSumSubArray(List<Integer> list){
+        int maxSoFar = Integer.MIN_VALUE;
+        int maxEndingHere = 0;
+
+        for (int i: list){
+            maxEndingHere = maxEndingHere + i;
+            if (maxSoFar < maxEndingHere){
+                maxSoFar = maxEndingHere;
+            }
+            if (maxEndingHere < 0){
+                maxEndingHere = 0;
+            }
+        }
+        return maxSoFar;
     }
 }
