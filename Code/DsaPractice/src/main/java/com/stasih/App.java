@@ -32,5 +32,9 @@ public class App
         // Largest Sum Contiguous Subarray (Kadane’s Algorithm)
         int sum = intArray.largestSumSubArray(intList);
         System.out.println("Largest Sum Subarray: " + sum);
+
+        String1 string1 = new String1();
+        List<String> list = string1.findSubsequences("aabc");
+        System.out.println(list);
     }
 }
