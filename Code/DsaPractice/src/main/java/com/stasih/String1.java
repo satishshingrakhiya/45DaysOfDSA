@@ -3,6 +3,7 @@ package com.stasih;
 import java.util.ArrayList;
 import java.util.List;
 
+// https://www.geeksforgeeks.org/string-data-structure/  -  String Problems
 public class String1 {
 
     public List<String> findSubsequences (String input) {

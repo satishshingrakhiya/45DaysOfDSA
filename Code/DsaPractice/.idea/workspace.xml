@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b9626da9-c1ea-4b28-b2b6-a0bc78dbfaf0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stasih/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stasih/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stasih/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stasih/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stasih/String1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stasih/String1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
       <module name="DsaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.stasih.*" />
+          <option name="PATTERN" value="com.stasih.LinkedList1" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
