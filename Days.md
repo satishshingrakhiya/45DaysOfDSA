@@ -13,7 +13,7 @@ String - Find Subsequences
 
 Practice Problems: https://www.geeksforgeeks.org/string-data-structure/
 
-Linked List - Insersion
+Linked List - Insersion, Search
 
 Practice Problems: https://www.geeksforgeeks.org/data-structures/linked-list/
 

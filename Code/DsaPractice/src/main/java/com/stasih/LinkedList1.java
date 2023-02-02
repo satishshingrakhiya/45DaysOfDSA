@@ -44,4 +44,16 @@ public class LinkedList1 {
         last.next = newNode;
         return;
     }
+
+    // Search for element
+    public boolean search(int data){
+        Node current = head;
+        while (current != null){
+            if (current.value == data){
+                return true;
+            }
+            current = current.next;
+        }
+        return false;
+    }
 }
