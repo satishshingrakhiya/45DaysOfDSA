@@ -36,5 +36,12 @@ public class App
         String1 string1 = new String1();
         List<String> list = string1.findSubsequences("aabc");
         System.out.println(list);
+
+        // Stack methods
+        Stack<Integer> stack = new Stack<>(new ArrayList<>(Arrays.asList(1, 3, 5, 2, 9, 6, 7)));
+        stack.pop();
+        stack.push(8);
+        stack.peek();
+        stack.isEmpty();
     }
 }
