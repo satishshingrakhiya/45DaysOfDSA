@@ -33,6 +33,7 @@ public class App
         int sum = intArray.largestSumSubArray(intList);
         System.out.println("Largest Sum Subarray: " + sum);
 
+        // String Subsequences
         String1 string1 = new String1();
         List<String> list = string1.findSubsequences("aabc");
         System.out.println(list);
@@ -43,5 +44,14 @@ public class App
         stack.push(8);
         stack.peek();
         stack.isEmpty();
+
+        // Queue methods
+        Queue<String> queue = new Queue<>(new ArrayList<>(Arrays.asList("Satish", "is", "Java", "Devloper")));
+        queue.enqueue(".");
+        System.out.println(queue);
+        queue.dequeue();
+        queue.front();
+        queue.rear();
+        queue.isEmpty();
     }
 }
