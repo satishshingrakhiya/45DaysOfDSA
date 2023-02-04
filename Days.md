@@ -21,4 +21,13 @@ Practice Problems: https://www.geeksforgeeks.org/data-structures/linked-list/
 ## Day 5
 Stack - push, pop, peek, isEmpty
 
+Practice Problems: https://www.geeksforgeeks.org/stack-data-structure/
+
 Queue - enqueue, dequeue, front, rear, isEmpty
+
+Practice Problems: https://www.geeksforgeeks.org/queue-data-structure/
+
+## Day 6
+Heap
+
+Practice Problems: https://www.geeksforgeeks.org/heap-data-structure/
